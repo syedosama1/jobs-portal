@@ -1,0 +1,156 @@
+@import url(app.css);
+
+.home {
+  padding: 6.5rem 0;
+  position: relative;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+
+.home-left {
+  position: relative;
+}
+
+.home-left h1 {
+  font-weight: 400;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 44px;
+}
+
+.home-left h1:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  background: #f2c034;
+  width: 45%;
+  height: 2px;
+}
+
+.home-left h1 strong {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.home-left p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.home-right-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 550px;
+}
+
+.home-image {
+  width: 40%;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+.home-image:hover {
+  transform: translateY(-15px);
+}
+
+.home-image span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.home-image:nth-child(2) {
+  color: #562f95 !important;
+}
+
+.home-image:nth-child(3) {
+  color: #685200 !important;
+}
+
+.home-image:nth-child(4) {
+  color: #08678f !important;
+}
+
+.home-image:nth-child(5) {
+  color: #4c3b9e !important;
+}
+
+.home-image:nth-child(6) {
+  color: #a74c02 !important;
+}
+
+.home-image img {
+  width: 100%;
+}
+
+
+
+@media (min-width: 1201px) {
+  .home-hero:before {
+    position: absolute;
+    left: 40px;
+    top: 25%;
+    content: "";
+    width: 40px;
+    height: 95px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+
+  .home:after {
+    position: absolute;
+    right: 40px;
+    bottom: 15%;
+    width: 41px;
+    height: 102px;
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+
+  .home-left:after {
+    content: "";
+    width: 38px;
+    height: 95px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-image {
+    width: 65%;
+  }
+}
+
+@media (max-width: 950px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home-image {
+    width: 60%;
+  }
+
+  .home-left h1:after {
+    width: 100%;
+  }
+}
