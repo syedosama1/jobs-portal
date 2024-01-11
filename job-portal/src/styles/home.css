@@ -32,6 +32,43 @@
   width: 45%;
   height: 2px;
 }
+.unstop-pro-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  border-radius: 40px; /* Set the border-radius to 50px */
+  overflow: hidden; /* Ensure content doesn't overflow outside the border */
+  border: 2px solid #ccc; /* Add a border for better visibility */
+  background-color: #a7a6ba;
+}
+
+.diamond-img {
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 10px; /* Adjust margin for spacing between image and text */
+}
+
+.nameContainer {
+  display: block;
+  font-size: 12px; /* Adjust font size as needed */
+  margin-bottom: 5px; /* Adjust margin for spacing */
+  margin-right: 50px;
+}
+
+.explore-pro {
+  color: #007bff; /* Set the color for Explore Pro text */
+}
+
+/* Optional: Add styles for the "Just Went Unstop!" text */
+strong {
+  font-size: 18px; /* Adjust font size as needed */
+}
+
 
 .home-left h1 strong {
   font-weight: 700;

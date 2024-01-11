@@ -74,8 +74,25 @@ const Home = () => {
             <br />
             Explore opportunities from across the globe to learn, showcase
             skills, gain CV points, & get hired by your dream company.
-          </p>
+          </p><br/>
+          <button className="unstop-pro-btn desktop">
+  <div className="button-container">
+    <img
+      src="https://d8it4huxumps7.cloudfront.net/uploads/images/655edc8c1fab9_diamond_1.png?d=82x82"
+      width="41"
+      height="42"
+      alt="diamond"
+      className="diamond-img"
+    />
+    <div className="fler">
+      <span className="nameContainer">Rahul</span>
+      <strong>"Just Went Unstop Pro!"</strong>
+    </div>
+  </div>
+</button>
+
         </div>
+        
         <div className="home-right">
           <div className="home-right-images">
             {images.map((item) => (
