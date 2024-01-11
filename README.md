@@ -9,7 +9,7 @@
 - [License](#license)
 
 ## Screenshot
-![Screenshot (163)](https://github.com/syedosama1/jobs-portal/assets/111410324/ec780ee3-0793-4579-b820-5ed00a84ea66)
+![Screenshot](https://github.com/syedosama1/jobs-portal/assets/111410324/416fa85b-f229-4c39-9e5c-4888fb420459)
 
 ## Prerequisites
 
