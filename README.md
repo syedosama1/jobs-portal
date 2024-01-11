@@ -8,6 +8,9 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+## Screenshot
+![Screenshot (163)](https://github.com/syedosama1/jobs-portal/assets/111410324/ec780ee3-0793-4579-b820-5ed00a84ea66)
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
